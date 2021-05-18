@@ -64,7 +64,7 @@
     "publishChangesOnly": true,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 1,
+    "uniqCompNum": 2,
     "versionPublish": "5.3.5",
     "screenshot": "screenshot.png"
   },
@@ -122,7 +122,7 @@
           },
           "_name": "header2",
           "_sourceTheme": "trainingamp",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" plugins=\"amp-main\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked=\"\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container':!fullWidth,\n                     'container-fluid': fullWidth}\">\n        <div class=\"mbr-row\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-m-auto mbr-col-lg-6\">\n                <div class=\"content mbr-p-4\">\n                    <h1 class=\"mbr-section-title align-left mbr-fonts-style mbr-pb-2 mbr-semibold\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">devfest Brasil 2021</h1>\n                    <p class=\"mbr-text align-left mbr-regular mbr-pb-5 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-section-btn, .mbr-text\">O maior evento sobre tecnologias Google do Brasil!</p>\n\n                    <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" mbr-buttons=\"true\" mbr-theme-style=\"display-7\"><a class=\"btn btn-lg btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://www.sympla.com.br/devfest-brasil-2021__1221956\" target=\"_blank\">REALIZAR INSCRIÇÃO</a></div>\n\n                </div>\n            </div>\n\n\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 img-col mbr-col-lg-6\">\n                <div class=\"image-block\">\n                    <amp-img src=\"@PROJECT_PATH@/assets/images/screen-shot-2021-05-17-at-19.02.10-1381x965.png\" layout=\"responsive\" width=\"934.4776207253886\" height=\"652.984\" alt=\"image\" class=\"placeholder-loader\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <a href=\"#\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/screen-shot-2021-05-17-at-19.02.10-1381x965.png\" alt=\"\" title=\"\" data-aspectratio=\"0.6666666666666666\"></a>\n                    </amp-img>\n                </div>\n            </div>\n\n        </div>\n\n\n\n\n\n\n\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" plugins=\"amp-main\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked=\"\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container':!fullWidth,\n                     'container-fluid': fullWidth}\">\n        <div class=\"mbr-row\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-m-auto mbr-col-lg-6\">\n                <div class=\"content mbr-p-4\">\n                    <h1 class=\"mbr-section-title align-left mbr-fonts-style mbr-pb-2 mbr-semibold\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">devfest Brasil 2021</h1>\n                    <p class=\"mbr-text align-left mbr-regular mbr-pb-5 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-section-btn, .mbr-text\">O maior evento sobre tecnologias Google do Brasil!</p>\n\n                    <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" mbr-buttons=\"true\" mbr-theme-style=\"display-7\"><a class=\"btn btn-lg btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://www.sympla.com.br/devfest-brasil-2021__1221956\" target=\"_blank\">REALIZAR INSCRIÇÃO</a></div>\n\n                </div>\n            </div>\n\n\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 img-col mbr-col-lg-6\">\n                <div class=\"image-block\">\n                    <amp-img src=\"@PROJECT_PATH@/assets/images/sympla-1600x838.png\" layout=\"responsive\" width=\"934.4878281622911\" height=\"489.438\" alt=\"image\" class=\"placeholder-loader\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <a href=\"#\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/sympla-1600x838.png\" alt=\"\" title=\"\" data-aspectratio=\"0.6987690079652426\"></a>\n                    </amp-img>\n                </div>\n            </div>\n\n        </div>\n\n\n\n\n\n\n\n    </div>\n</section>",
           "_cid": "sxHXFBofpY",
           "_anchor": "header2-0",
           "_protectedParams": [],
@@ -335,6 +335,50 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
+              }
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-section-title": {
+              "color": "#000f36"
+            },
+            ".content": {
+              "max-width": "800px",
+              "margin": "auto"
+            },
+            ".mbr-text": {
+              "color": "#000f36"
+            },
+            ".image-block": {
+              "height": "100%"
+            },
+            ".mbr-section-sub-title": {
+              "color": "#000f36"
+            }
+          },
+          "_name": "testimonials1",
+          "_sourceTheme": "trainingamp",
+          "_customHTML": "<section class=\"Testimonials1\" group=\"Testimonials\" plugins=\"amp-main\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Name\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container':!fullWidth,\n                     'container-fluid': fullWidth}\">\n        <div class=\"mbr-row\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-m-auto mbr-col-lg-6\">\n                <div class=\"content mbr-p-4\">\n                    <h2 class=\"mbr-section-sub-title align-left mbr-fonts-style mbr-pb-4\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-sub-title\">Gostou da proposta do Devfest Brasil e quer apoiar essa iniciativa entre em contato pelo e mail.</h2>\n                    <p class=\"mbr-text align-left mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"><a href=\"mailto:organizers@devfest.com.br\" class=\"text-black\">organizers@devfest.com.br</a></p>\n                </div>\n            </div>\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 img-col mbr-col-lg-6\">\n                <div class=\"content mbr-p-4\">\n                    <h1 class=\"mbr-section-title align-left mbr-fonts-style mbr-pt-4 mbr-semibold\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\">Construa<br>Junto!</h1>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sxOgmPizrh",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "testimonials1-1"
         },
         {
           "alias": false,
