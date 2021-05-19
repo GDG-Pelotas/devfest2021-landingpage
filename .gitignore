@@ -1,1 +1,4 @@
 serviceAccount.json
+.firebase/*
+.firebaserc
+firebase.json
