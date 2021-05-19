@@ -55,7 +55,7 @@
     "robotsSwitcher": true,
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "sitemapSwitcher": true,
-    "siteUrl": "https://www.devefest.com.br",
+    "siteUrl": "https://www.devfest.com.br",
     "sitemapSwitcherAuto": "on",
     "cssOptimize": true,
     "favicon": false,
